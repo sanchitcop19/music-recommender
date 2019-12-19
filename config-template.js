@@ -7,7 +7,7 @@ let clientId = '<SPOTIFY CLIENT-ID>',
 module.exports = {
     me: me,
     my_email: my_email,
-    sonali_email: sonali_email,
+    partner_email: partner_email,
     clientId: clientId,
     clientSecret: clientSecret
 }

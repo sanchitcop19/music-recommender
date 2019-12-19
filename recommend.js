@@ -37,8 +37,6 @@ spotifyApi.clientCredentialsGrant().then(
       send_email(my_email, partner_track.track.external_urls.spotify);
       send_email(partner_email, me_track.track.external_urls.spotify);
       
-
-
     })
   },
   function(err) {
@@ -67,7 +65,6 @@ let send_email = async function(to, recommendation){
 
   req.end(function (res) {
     if (res.error) throw new Error(res.error);
-    console.log(res.body);
   });
 }
 
