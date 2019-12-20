@@ -1,7 +1,4 @@
-// Run service once every day
-// Delete songs from playlist
-
-const recommended = require("./recommended.json");
+:x
 const schedule = require("node-schedule");
 const {
   me,
