@@ -1,4 +1,3 @@
-:x
 const schedule = require("node-schedule");
 const {
   me,
